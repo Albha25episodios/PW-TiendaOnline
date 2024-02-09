@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login huellitas</title>
+    <link rel='stylesheet' href='/stylesheets/login_style.css'>
+</head>
+<body>
+    <div class= "imgdon">
+        <div class="Login">
+            <h2>Huellitas</h2>
+            <h4>Iniciar sesión</h4>
+            <form action="/login" method="POST">
+              <div class="cajaInput">
+                <input type="text" name="identificador" placeholder="Usuario">
+              </div>
+              <div class="cajaInput">
+                <input type="password" name="password" placeholder="Contraseña">
+              </div>
+              <div class="cajaInput">
+                <input type="submit" value="Iniciar" id="btn">
+              </div>
+            </form>
+            <div class="Nosesion">
+              <a href="/register">Registrarse</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

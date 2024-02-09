@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login huellitas</title>
+    <link rel='stylesheet' href='/stylesheets/register_style.css' />
+</head>
+<body>
+    <div class= "imgdon">
+        <div class="Login">
+            <h2>Huellitas</h2>
+            <h4>Registrandose en la tienda Huellitas</h4>
+            <form action="/login" method="POST">
+                <div class="cajaInput">
+                    <input type="text" name="dni" placeholder="Nro DNI" required>
+                </div>
+                <div class="cajaInput">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="cajaInput">
+                    <input type="text" name="apellido" placeholder="Apellido" required>
+                </div>
+                <div class="cajaInput">
+                    <input type="text"  name="direccion" placeholder="Dirección" required>
+                </div>
+                <div class="cajaInput">
+                    <input type="text" name="correo" placeholder="Correo Electronico" required>
+                </div>
+                <div class="cajaInput">
+                    <input type="text" name="telefono" placeholder="Nro Telefonico" required>
+                </div>
+                <div class="cajaInput">
+                    <input type="password" name="constrasena" placeholder="Contraseña" required>
+                </div>
+                <div class="cajaInput">
+                    <div class="btn-container">
+                        <button type="submit" id="btn-2">Registrarse</button>
+                    </div>
+                </div>
+            </form>
+            <div class="Nosesion">
+                <a href="/login">Iniciar Sesion</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

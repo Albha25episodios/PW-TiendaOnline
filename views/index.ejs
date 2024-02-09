@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas</title>
+    <link rel="icon" href="img/logoHuella.ico">
+    <link rel="stylesheet" href="/stylesheets/index_style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Indie+Flower&family=Montserrat:wght@500;600;700;800&family=Noto+Sans+JP:wght@300;400;700&family=Noto+Sans:wght@200;400;600;800&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;700&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="cabezal">
+        <div class="login-sesion">
+            <a href="/login">Iniciar sesión</a>
+        </div>
+        <div class="btn-carrito">
+            <p></p>
+        </div>
+    </div>
+    <header class="header" id="inicio">
+        <div class="container-icon">
+            <div class="container-cart-icon">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="icon-cart"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                    />
+                </svg>
+                <div class="count-products">
+                    <span id="contador-productos">0</span>
+                </div>
+            </div>
+
+            <div class="container-cart-products hidden-cart">
+                <div class="row-product hidden">
+                    <div class="cart-product">
+                        <div class="info-cart-product">
+                            <span class="cantidad-producto-carrito">1</span>
+                            <p class="titulo-producto-carrito">Zapatos Nike</p>
+                            <span class="precio-producto-carrito">$80</span>
+                        </div>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="icon-close"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M6 18L18 6M6 6l12 12"
+                            />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="cart-total hidden">
+                    <button class="reservar-btn">Reservar</button>
+                    <span class="total-pagar">200</span>
+                </div>
+                <p class="cart-empty">El carrito está vacío</p>
+            </div>
+        </div>
+        <nav class="menu-navegacion">
+            <div class="br-atn">
+                <div class="lg-link">
+                    <span class="icon-descr">
+                        <i class='bx bxs-home'></i>
+                    </span>
+                </div>
+                <div class="lg-etiq">
+                    <a href="#inicio">Inicio</a>
+                </div>
+            </div>
+            <div class="br-atn">
+                <div class="lg-link">
+                    <span class="icon-descr">
+                        <i class='bx bxs-heart'></i>
+                    </span>
+                </div>
+                <div class="lg-etiq">
+                    <a href="#nosotros">Nostros</a>
+                </div>
+            </div>
+            <div class="br-atn">
+                <div class="lg-link">
+                    <span class="icon-descr">
+                        <i class='bx bxs-dog'></i>
+                    </span>
+                </div>
+                <div class="lg-etiq">
+                    <a href="#perros">Perros</a>
+                </div>
+            </div>
+            <div class="br-atn">
+                <div class="lg-link">
+                    <span class="icon-descr">
+                        <i class='bx bxs-cat'></i>
+                    </span>
+                </div>
+                <div class="lg-etiq">
+                    <a href="#gatos">Gatos</a>
+                </div>
+            </div>
+            <div class="br-atn">
+                <div class="lg-link">
+                    <span class="icon-descr">
+                        <i class='bx bxs-phone'></i>
+                    </span>
+                </div>
+                <div class="lg-etiq">
+                    <a href="#footer">Contacto</a>
+                </div>
+            </div>
+        </nav>
+        <div class="contenedor-encabezado">
+            <div class="head">
+                <h1 class="titulo">HUELLITAS</h1>            
+            </div>
+            <div class="copy">
+                <p>
+                    Ronroneos, rabos felices y un mundo de cariño y confort para tus compañeros peludos.
+                </p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="nosotros">
+            <div class="rtz-st">
+                <h2>Nosotros</h2> 
+            </div>
+            <div class="mnt-abot">
+            </div>
+        </section>
+        <section class="galeria" id="perros">
+            <div class="rtz-st">
+                <h2>Perros</h2> 
+            </div>
+            <div class="container-items">
+                <div class="item">
+                    <img src="img/pelucheMono.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Peluche Mono para Perros</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 26</p>
+                        </div>
+                        <!-- <p class="price">S 80</p> -->
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/bolitaJuguete.jpg" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Pelota Roja para Perro</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 9</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/huesoMasticable.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Juguete Hueso para Morder para Perros</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 13</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/pelucheTucan.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Peluche Tucan para Perros</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 26</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/banana.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Juguete Platano para Morder para Perros</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 9</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/polloMasticable.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Juguete Pescado para Perro</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 10</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/CollarMulticolor.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Collar Colorido para Perro</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 22</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/collaNegro.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Collar Negro para Perro</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 25</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/ropaDragon.jpg" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Ropa DBZ para Perros</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 28</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/RopaFormula1.jpg" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Ropa GrandPrix para Perros</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 27</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/RopaLana.jpg" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Ropa de Lana para Perro</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 30</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/RopaTrasX.jpg" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Ropa con capucha para Perro</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 29</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/RopaCamino.jpg" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Chubasquero para Perros</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 28</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/PlatoBebederoRojo.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Plato de Plástico para Perros</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 6</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/PlatoSimple.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Plato de Metal para Perros</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 9</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/PlatoBebederoUnosSolo.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Plato Doble de Metal para Perros</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 12</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/camaCuadrada.jpg" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Cama Cuadrada para Perros</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 32</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/camaSimple.jpg" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Cama Cómoda para Perros</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 42</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/camaHuella.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Cama en Forma de Huellita para Perros</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 39</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/camaMarron.jpg" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Cama Circular para Perros</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 37</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="gatos">
+            <div class="rtz-st">
+                <h2>Gatos</h2>
+            </div>
+            <div class="container-items" id="id-cat">
+                <div class="item">
+                    <img src="img/gatoRopa1.jpeg" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Traje Azul para Gatos</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 20</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/gatoRopa2.jpg" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Vestido para Gatos</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 21</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/gatoRopa3.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Traje con Puntitos para Gatos</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 19</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/gatoRopa4.jpeg" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Suéter Rojo para Gatos</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 18</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/gatoRopa5.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Suéter Gris para Gatos</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 18</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/gatoRopa6.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Suéter Azul para Gatos</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 15</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/gatoDosPescado.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Juguete Pescados para Gatos</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 5</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/gatoPelotas.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Esfera de Juguete para Gatos</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 8</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/gatoPesacado.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Caña de Pescar de Juguete para gato</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 6</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/gatoComedero.jpg" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Pescado Rojo de juguete para gato</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 7</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/GatoPlatoNegro.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Plato negro de metal para gato</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 8</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/gatoPlatoRosa.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Plato Rojo de metal para gato</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 9</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/PlatoSimple.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Plato Simple de metal para gato</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 8</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/gatoCasaCuadro.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Cama suave para gato</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 32</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/gatoCasaPeq.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Cama patron puntos para gato</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 42</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/gatoCasaSinTecho.png" alt="" class="img-galeria">
+                    <div class="info-product">
+                        <h2>Cama Cojin para gato</h2>
+                        <div class="price-confit">
+                            <p class="price">S/. 39</p>
+                        </div>
+                        <button class="btn-add-cart">Añadir al carrito</button>
+                    </div>
+                </div>        
+            </div>
+        </section>
+    </main>
+    <footer  class="rtz-st" id="footer">
+        <h2>Contacto</h2>
+        <div class="conten-fot">
+            <div class="aea-toc">
+                <img src="img/HuellaLogoFondo.png" alt="">
+            </div>
+            <div class="mes-sld">
+                <p>🐾 Visítanos en nuestra tienda física o explora nuestro catálogo en línea, donde podrás encontrar las marcas más reconocidas y productos de alta calidad para satisfacer las necesidades de tus mascotas.
+                </p><br><br>
+                <p>¡Tu satisfacción y la felicidad de tus amigos peludos son nuestra prioridad! ¡Esperamos verte pronto en nuestra tienda de artículos para mascotas! 🐾</p>
+                <div class="link-soc">
+                    <div class="era-til">
+                        Puedes comunicarte con nosotros mediante las siguiente redes sociales
+                    </div>
+                    <div class="lin-a">
+                        <div class="ic-o">
+                            facebook
+                        </div>
+                        <div class="ic-o">
+                            whatsap
+                        </div>
+                        <div class="ic-o">
+                            instagram
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="linea"></div>
+        <div class="cp-rght">
+            <p>&copy; 2023 Tienda Huellitas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="javascripts/main.js"></script>
+</body>
+</html>
